@@ -1,0 +1,10 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <script src="/public/javascript/jquery-2.2.3.min.js?v="  type="text/javascript"></script>
+</head>
+<body style="background-color: #999;">
+<img style='max-width: 400px;width: 100%;position: absolute;right: 0;top: 30%;left: 0;margin: 0 auto;' src="/public/image/404.png"/>
+<!--<h1 style='width: 400px;position: absolute;margin-left: -200px;margin-top: -80px;top: 50%;left: 50%;display: block;z-index: 2000;color:#FB7C7C;text-align: center'> 404 Not Found </h1>-->
+</body>
+</html>
