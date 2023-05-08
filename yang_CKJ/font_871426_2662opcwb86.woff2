@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html data-dpr="1" style="font-size: 40px;" class="" lang="en"><head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>twduichong.xyz</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <meta property="og:site_name" content="twduichong.xyz">
+    <meta property="og:url" content="twduichong.xyz">
+    <meta property="og:title" content="twduichong.xyz">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="twduichong.xyz">
+    <meta name="twitter:description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+    <meta name="applicable-device" content="mobile">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-title" content="jiahong">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="aplus-terminal" content="1">
+    <meta name="format-detection" content="telephone=no, email=no">
+   <link type="image/x-icon" rel="icon" href="" >
+    <script type="text/javascript" src="/theme/style154/js/init.js"></script>
+	<script type="text/javascript" src="/theme/style154/js/jquery.js"></script>
+	<script type="text/javascript" src="/theme/style154/js/flipclock.js"></script>
+
+    <script src="/theme/style154/js/checkout.js"></script><script async="true" id="xo-pptm" src="/theme/style154/js/pptm.js"></script>            
+    <link rel="stylesheet" href="/theme/style154/css/template1.css">
+    <link rel="stylesheet" href="/theme/style154/css/styles.css">    
+    <script src="/public/javascript/common.js"  type="text/javascript"></script>
+     <!-- Facebook Pixel Code -->
+     <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '');
+                fbq('track', "PageView");
+        fbq('track', 'ViewContent');
+    </script>
+<!-- Facebook Pixel Code -->
+ 
+
+    <style type="text/css">@font-face{font-family:OpenSansRegular;src:url(/theme/style154/css/OpenSans-Regular.ttf)}@font-face{font-family:LatoRegular;src:url(/theme/style154/css/Lato-Regular.ttf)}@font-face{font-family:AvenirNextRegular;src:url(/theme/style154/css/AvenirNext-Regular.ttf)}.sl-main-title,.sl-main-title a{font-family:OpenSansRegular !important;font-size:24px !important;line-height:28px !important}.banner .sl-main-title{font-size:44px !important;line-height:48px !important}.sl-subhead-title,.sl-subhead-title a{font-family:LatoRegular !important}body, input, .product-details *{font-family:AvenirNextRegular !important;font-size:14px !important}</style>
+
+    <script type="text/javascript" >
+    //fb追踪
+        var addCart_ = 1,AddPaymentInfo_=1,InitiateCheckout_=1,Purchase_=1;
+
+        //加入购物车
+        function addCartEvent(){
+            if(addCart_ <= 0){
+                return false;
+            }
+            fbq('track', 'AddToCart');
+            addCart_--;
+        }
+
+        //填写支付信息
+        function AddPaymentInfo(){
+            if(AddPaymentInfo_ <= 0){
+                return false;
+            }
+            fbq('track', 'AddPaymentInfo');
+            AddPaymentInfo_--;
+        }
+
+
+        //发起支付流程
+        function InitiateCheckout(){
+            if(InitiateCheckout_ <= 0){
+                return false;
+            }
+            fbq('track', 'InitiateCheckout');
+            InitiateCheckout_--;
+        }
+
+        //支付成功后上报信息
+        function Purchase(value,currency){
+            if(Purchase_ <= 0){
+                return false;
+            }
+            fbq('track', 'Purchase',
+                {
+                    value: value,
+                    currency: currency,
+                });
+            Purchase_--;
+        }
+
+        //观看内容
+        function ViewContent(){
+            fbq('track', 'ViewContent');
+        }
+    </script>    
+<script src="/theme/style154/js/index_cart.js"></script>
+</head>
+<body class="template1-body" style="">
+
+<div class="nav-model-mask J-Mask" style="display: none;"></div>
+<div class="nav-drawer drawer J-Nav-Drawer">
+    <div class="close" style="padding-left: 0.5rem ">
+        <i class="iconfont icon-close" style="font-size: 24px;"></i>
+    </div>
+     
+ <div class="search-box">
+ <form action="/search.php?keyword=" method="get" id="fromsearch_sub_sj2Yy3">
+        <input id="search_keyword_sj2Yy3" type="search" name="keyword" class="search" placeholder="Search">
+</form>
+        <span class="search-icon iconfont icon-sousuo2" id="search_sub_sj2Yy3"></span>
+    </div>
+<script type="application/javascript">
+function addLoadEvent(func) {
+  var oldonload = window.onload;
+  if (typeof window.onload != 'function') {
+    window.onload = func;
+  } else {  
+    window.onload = function() {
+      oldonload();
+      func();
+    }
+  }
+}
+var search_search_keyword_sj2Yy3;
+addLoadEvent(function(){
+    var sort = '';
+    search_search_keyword_sj2Yy3 = function () {
+        
+        var search_keyword = document.getElementById("search_keyword_sj2Yy3").value;
+        var url = '/search?keyword=';
+        window.location = url + search_keyword + '&sort=' + sort;
+       return false;
+    };
+    var subObj = document.getElementById("search_sub_sj2Yy3");
+    subObj.onclick = search_search_keyword_sj2Yy3;
+});
+</script>    <ul class="nav-ul sl-subhead-title">
+                    <li class="nav-item "><a href="/index.php">首頁</a></li>
+                                            <!---首页装修,自定义导航--->
+                                                    <li class="nav-item "><a href="/search.php?keyword=all">所有產品</a></li>
+                                                                <li class="nav-item sl-subhead-title"></li>
+            </ul>
+</div>
+
+<div class="buy-cart-box drawer J-BuyCart--Box J-CartList" style="display: none;">
+    <div class="buy-cart">
+        <h3 class="buy-title sl-main-title">Your Cart <span class="close iconfont icon-close"></span></h3>
+
+        <div class="flex-main">
+            <div class="cart-discount-tips J-CartDiscountTips sl-subhead-title">
+                <span class="iconfont icon-yduizhekou"></span>
+                <em></em>
+            </div>
+
+            <div>
+                <ul class="buy-product-list clearfloat J-BuyProduct"></ul>
+                <div class="cart-comments ">
+                    <p>Comments</p>
+                    <div>
+                        <textarea class="jh-textarea J-Textarea"></textarea>
+                    </div>
+                </div>
+                <div class="currency-tips" style="display: none;">All orders are processed in <span class="payment-currency">USD</span>. While
+                    the
+                    content of your cart is currently displayed in <span class="display-currency">CYN</span>, you will
+                    checkout
+                    using <span class="payment-currency">USD</span> at the most current exchange rate.
+                </div>
+                <div class="total-tips">
+                    <span class="iconfont icon-gantanhao"></span>
+                    <h4>Out of stock</h4>
+                    <p>Some items are no longer available. Your cart has been updated.</p>
+                </div>
+                <div class="cart-coupon-main">
+                                            <span class="cart-coupon-open J-CartCouponOpen" style="display: block;"> Have a discount code? </span>
+                                        <div style="display: none;">
+                        <div class="cart-coupon-box">
+                            <input type="text" class="jh-input J-GetCartCouponVal" placeholder="Discount code">
+                            <button class="jh-btn jh-btn-disabled jh-btn-buy  fr J-GetCartCoupon sl-subhead-title" disabled="disabled"> Apply </button>
+                        </div>
+                        <div class="J-CartCouponTips"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buy-cart-total">
+
+            <div class="subtotal-price sl-subhead-title">
+                <span class="fl">Subtotal</span>
+                <span class="fr sl-subhead-title J-Subtotal" data-price="0.00"><strong>$0.00</strong> </span>
+            </div>
+
+            <div class="cart-discount sl-subhead-title">
+                <div class="fl">
+                    <span class="fl">Discount</span>
+                    <span class="iconfont icon-wenhao J-DiscountTips" style="display: none;"></span>
+                    <div class="cartlist-discount-tips">
+                        <p>This discount code cannot be used in conjunction with other promotional or discounted offer.</p>
+                        <span class="iconfont icon-bofang"></span>
+                    </div>
+                </div>
+                <span class="fr J-CartDiscount" data-price="0.00"><strong></strong> </span>
+            </div>
+
+            <div class="total-price sl-subhead-title">
+                <span class="fl">Total</span>
+                <span class="fr J-Total" data-price="0.00">USD <strong>$0.00</strong> </span>
+            </div>
+
+            <div class="total-describe">Taxes and shipping calculated at checkout</div>
+
+            <button class="jh-btn jh-btn-buy J-Gopay JH-Event-CheckOut sl-subhead-title">
+                <span class="btn-text">
+                    CHECK OUT
+                    <em class="iconfont icon-right"></em>
+                </span>
+
+                <span class="iconfont icon-jiazai loading">
+
+                </span>
+            </button>
+
+        </div>
+    </div>
+</div>
+
+<div class="buy-cart-box drawer J-BuyCart--Box cart-empty J-CartEmpty" style="display: block;">
+    <div class="buy-cart">
+        <h3 class="buy-title sl-main-title">Your Cart <span class="close iconfont icon-close"></span></h3>
+        <div class="icon-cart-empty"><span class="iconfont icon-empty-cart"></span></div>
+        <p>Your cart is empty.</p>
+</div>
+</div><h1 style="display: none">shoes</h1>
+<input type="hidden" class="preview-hide-code" value="0">
+<input type="hidden" class="sail-event-page-location" value="index">
+<input type="hidden" class="sail-event-page-handler" value="">
+<input type="hidden" class="sail-event-recommend-product" value="0">
+<input type="hidden" class="J-isPreview" value="0">
+<input type="hidden" class="sail-event-referer" value="/cart.php">
+<input type="hidden" class="J-PaypalClientId" value="AQtZBfcnyW6TD9QOjj9_WBfkSB0Y4W317lwD_yswqN4wVIUpH-YtXrkliVOagbq1hQQ-wpfsHSkI-5ud">
+<input type="hidden" class="J-getCurrentState" value="CN"> <!-- 访客地区 -->
+<input type="hidden" class="J-IsRenovation" value="0"><div class="PageContainer J-PageContainer">
+<input type="hidden" class="JH-page-location" value="">
+<input type="hidden" value="1" class="JH-currency-tag">
+<input type="hidden" class="JH-Event-Name" value="index">
+<input type="hidden" class="J-currency-code" value="USD" data-symbol="$" data-rate-value="1.0000">
+
+<div class="JH-Columns">
+        <div class="header">
+        <div class="main head mobile">
+            <div class="logo">
+    <a href="/index.php">
+        <span>twduichong.xyz</span>
+    </a>
+            </div>
+            <div class="nav">
+                <div class="nav-icon J-NavShow">
+                    <span class="nav-icon-show top"></span>
+                    <span class="nav-icon-show center"></span>
+                    <span class="nav-icon-show bottom"></span>
+                </div>
+                <ul class="nav-ul sl-subhead-title">
+                    <li class="nav-item "><a class="" href="/index.php">首頁</a></li>
+                      
+                        <!---首页装修,自定义导航--->
+                                                    <li class="nav-item "><a href="/search.php?keyword=all">所有產品</a></li>
+                                                            </ul>
+            </div>
+
+            <div class="operat">
+                <!--<div class="currency-more sl-subhead-title">
+                        <span>
+                            <img src="/theme/style154/images/USD.jfif" data-original="/theme/style154/images/USD.jpg" class="J-LazyLoad blur-img" alt="">
+                            USD                        </span>
+                        <ul class="currency-list">
+                            <div class="jh-model-arrow up position-top"></div>
+                                                            <li data-currency-code="USD">
+                                    <img src="/theme/style154/images/USD.jfif" data-original="/theme/style154/images/USD.jfif" class="J-LazyLoad blur-img">
+                                    USD                                </li>
+                                                            <li data-currency-code="AUD">
+                                    <img src="/theme/style154/images/AUD.jfif" data-original="/theme/style154/images/AUD.jfif" class="J-LazyLoad blur-img">
+                                    AUD                                </li>
+                                                            <li data-currency-code="BRL">
+                                    <img src="/theme/style154/images/BRL.jfif" data-original="/theme/style154/images/BRL.jfif" class="J-LazyLoad blur-img">
+                                    BRL                                </li>
+                                                            <li data-currency-code="CAD">
+                                    <img src="/theme/style154/images/CAD.jfif" data-original="/theme/style154/images/CAD.jfif" class="J-LazyLoad blur-img">
+                                    CAD                                </li>
+                                                            <li data-currency-code="EUR">
+                                    <img src="/theme/style154/images/EUR.jfif" data-original="/theme/style154/images/EUR.jfif" class="J-LazyLoad blur-img">
+                                    EUR                                </li>
+                                                            <li data-currency-code="GBP">
+                                    <img src="/theme/style154/images/GBP.jfif" data-original="/theme/style154/images/GBP.jfif" class="J-LazyLoad blur-img">
+                                    GBP                                </li>
+                                                            <li data-currency-code="JPY">
+                                    <img src="shoes_files/JPY.jfif" data-original="/theme/style154/images/JPY.jfif" class="J-LazyLoad blur-img">
+                                    JPY                                </li>
+                                                            <li data-currency-code="MXN">
+                                    <img src="/theme/style154/images/MXN.jfif" data-original="/theme/style154/images/MXN.jfif" class="J-LazyLoad blur-img">
+                                    MXN                                </li>
+                                                            <li data-currency-code="NZD">
+                                    <img src="/theme/style154/images/NZD.jfif" data-original="/theme/style154/images/NZD.jfif" class="J-LazyLoad blur-img">
+                                    NZD                                </li>
+                                                    </ul>
+                    </div> -->
+                
+                <span class="head-search iconfont J-HeadSearch icon-search1"></span>
+                <a href="/login.php" class="iconfont icon-gerenzhongxin-1 head-customer"></a>
+                <a class="head-buycart iconfont icon-cart-1" href="/cart_shop.php"><i style="display: none;">0</i></a>
+            </div>
+        </div>
+
+        <div class="head-search-box J-HeadSearchBox" style="top: 79px;">
+            
+<div class="search-box">
+    <form action="/search" method="get">
+        <input type="/search.php?keyword=" name="keyword" class="search" placeholder="Search">
+    </form>
+    <span class="search-icon iconfont icon-sousuo2"></span>
+</div>
+
+<script type="application/javascript">
+    $(document).on('click', '.search-box .iconfont', function () {
+        var sort = "";
+        var search_keyword = $(this).parent('.search-box').find('input').val();
+        var url = '/search.php';
+        window.location = url + '?keyword=' + search_keyword + '&sort=' + sort;
+    });
+    </script>
+        </div>
+    </div>
+</div><script type="text/javascript" src="/theme/style154/js/jquery.js"></script><script type="text/javascript" src="/theme/style154/js/Swiper.js"></script>
+ 
+<div class="banner index_zNzrZe swiper-container JH-Columns  ">
+    <img style="display: none" src="/theme/style154/images/7da576687bd27de3833b69cc927bc9b1.png">
+    <div class="swiper-wrapper">
+        </div>
+    </div>
+
+    <div class="main goods-list clearfloat JH-Columns ">
+        <h3 class="title border sl-main-title">
+            <span>熱銷產品</span>
+        </h3>
+        <ul class="classify-ul four-col">
+              
+     
+                <li class="classify-item ">
+                    <a href="/d.php?product_id=cO7A2VZ">
+                        <div class="img-wrapper">
+                            <img data-original="" src="" class="J-LazyLoad blur-img">
+                        </div>
+                        <div class="good-info">
+                            <p class="name">0</p>
+                            <p class="price">
+                <span class="visually-hidden" aria-hidden="false">Sale price</span>
+            <span class="pay-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+
+            <span class="visually-hidden" aria-hidden="false">Regular price</span>
+                        <span class="orig-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+                
+        </p>
+                            
+                        </div>
+                    </a>
+
+                </li>
+     
+       
+     
+                <li class="classify-item ">
+                    <a href="/d.php?product_id=c7tgjIV">
+                        <div class="img-wrapper">
+                            <img data-original="https://52cj.info/public/uploads/20221214/8494d7d8898e0c5b866085aa5e1e8352.png" src="https://52cj.info/public/uploads/20221214/8494d7d8898e0c5b866085aa5e1e8352.png" class="J-LazyLoad blur-img">
+                        </div>
+                        <div class="good-info">
+                            <p class="name">歐拉交易筆記</p>
+                            <p class="price">
+                <span class="visually-hidden" aria-hidden="false">Sale price</span>
+            <span class="pay-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+
+            <span class="visually-hidden" aria-hidden="false">Regular price</span>
+                        <span class="orig-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+                
+        </p>
+                            
+                        </div>
+                    </a>
+
+                </li>
+     
+       
+     
+                <li class="classify-item ">
+                    <a href="/d.php?product_id=cHFOdwc">
+                        <div class="img-wrapper">
+                            <img data-original="https://52cj.info/public/uploads/20221214/130661d8f0679a7f919bffafbb2887ad.png" src="https://52cj.info/public/uploads/20221214/130661d8f0679a7f919bffafbb2887ad.png" class="J-LazyLoad blur-img">
+                        </div>
+                        <div class="good-info">
+                            <p class="name">歐拉交易筆記</p>
+                            <p class="price">
+                <span class="visually-hidden" aria-hidden="false">Sale price</span>
+            <span class="pay-price sl-subhead-title" data-seller-price="1" data-price="1">
+                ￥ 1        </span>
+
+            <span class="visually-hidden" aria-hidden="false">Regular price</span>
+                        <span class="orig-price sl-subhead-title" data-seller-price="1" data-price="1">
+                ￥ 1        </span>
+                
+        </p>
+                            
+                        </div>
+                    </a>
+
+                </li>
+     
+       
+     
+                <li class="classify-item ">
+                    <a href="/d.php?product_id=cLmts7P">
+                        <div class="img-wrapper">
+                            <img data-original="https://52cj.info/public/uploads/20221215/f59d4fcf0ea028cc4530d3197b3bb925.png" src="https://52cj.info/public/uploads/20221215/f59d4fcf0ea028cc4530d3197b3bb925.png" class="J-LazyLoad blur-img">
+                        </div>
+                        <div class="good-info">
+                            <p class="name">耶誕節福利-美人存股心法大公開</p>
+                            <p class="price">
+                <span class="visually-hidden" aria-hidden="false">Sale price</span>
+            <span class="pay-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+
+            <span class="visually-hidden" aria-hidden="false">Regular price</span>
+                        <span class="orig-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+                
+        </p>
+                            
+                        </div>
+                    </a>
+
+                </li>
+     
+       
+     
+                <li class="classify-item ">
+                    <a href="/d.php?product_id=cvULKefr">
+                        <div class="img-wrapper">
+                            <img data-original="https://52cj.info/public/uploads/20221216/2552a59105c178fcaf22244ee2e30852.jpg" src="https://52cj.info/public/uploads/20221216/2552a59105c178fcaf22244ee2e30852.jpg" class="J-LazyLoad blur-img">
+                        </div>
+                        <div class="good-info">
+                            <p class="name">何老師的當沖實戰日誌</p>
+                            <p class="price">
+                <span class="visually-hidden" aria-hidden="false">Sale price</span>
+            <span class="pay-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+
+            <span class="visually-hidden" aria-hidden="false">Regular price</span>
+                        <span class="orig-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+                
+        </p>
+                            
+                        </div>
+                    </a>
+
+                </li>
+     
+       
+     
+                <li class="classify-item ">
+                    <a href="/d.php?product_id=cgcd1cdefF">
+                        <div class="img-wrapper">
+                            <img data-original="https://52cj.info/public/uploads/20221229/5e3a84abb31022f6c9b447096b367a73.png" src="https://52cj.info/public/uploads/20221229/5e3a84abb31022f6c9b447096b367a73.png" class="J-LazyLoad blur-img">
+                        </div>
+                        <div class="good-info">
+                            <p class="name">就算盤型小的緩漲盤型，Queen怜老師也能精準抓到轉折!</p>
+                            <p class="price">
+                <span class="visually-hidden" aria-hidden="false">Sale price</span>
+            <span class="pay-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+
+            <span class="visually-hidden" aria-hidden="false">Regular price</span>
+                        <span class="orig-price sl-subhead-title" data-seller-price="0" data-price="0">
+                ￥ 0        </span>
+                
+        </p>
+                            
+                        </div>
+                    </a>
+
+                </li>
+     
+            
+                </ul>
+    </div>
+
+
+
+
+
+ 
+<footer class="JH-Columns J-footer" style="padding-bottom: 0px;">
+    <div class="main">
+        <div class="help-center clearfloat">
+            <div class="help-box">
+                <h3>主菜單</h3>
+                <ul class="help-list">
+                    <li class="help-item"><a href="/index.php">首頁
+                    <li class="help-item"><a href="/search.php?keyword=all">所有產品
+                    <li class="help-item"><a href="/myaccount.php">订单查询
+                </ul>
+            </div>
+            <div class="help-box">
+                <h3></h3>
+                <ul class="help-list">
+                     
+            </div>
+        </div>
+        <div class="foot"><div class="share-box"></div>
+                    <p class="reserved">Copyright ©  All Rights Reserved</p>
+        </div>
+
+    </div>
+    </footer>
+    </div>
+            <script type="text/javascript" src="/theme/style154/js/Swiper.js"></script>
+            <script type="text/javascript" src="/theme/style154/js/jhPlugin.js"></script>
+            <script type="text/javascript" src="/theme/style154/js/index.js"></script>    
+            <script type="text/javascript" src="/theme/style154/js/event.js"></script>
+</body></html>
